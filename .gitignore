@@ -1,0 +1,9 @@
+=4.51.1
+install_qwen2-1.5B.py
+install_qwen2.5-0.5b.py
+data/
+.conda/
+app/__pycache__/
+.venv
+=2.6.3
+screenshot.png

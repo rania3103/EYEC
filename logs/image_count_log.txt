@@ -1,0 +1,5 @@
+Log of images in ../data/
+========================================
+Folder [../data/non_meme]: 3087 images 
+========================================
+Total number of images across all folders': 3087 images 

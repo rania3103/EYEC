@@ -1,0 +1,17 @@
+torch==2.4.0
+transformers==4.46.2
+numpy==1.26.0
+pillow==10.3.0
+# flash-attn==2.7.0.post2 --no-build-isolation (we will install it by command line: pip install flash-attn==2.7.0.post2 --no-build-isolation) 
+huggingface_hub
+torchvision==0.19.0
+# run in command line pip install "vllm[torch]"
+# run pip install git+https://github.com/huggingface/parler-tts.git in command line
+icrawler
+gallery-dl
+# run on command line pip install git+https://github.com/openai/CLIP.git
+streamlit
+pyttsx3
+# in command line apt-get install espeak
+scikit-learn
+# run in command line snap install docker
