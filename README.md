@@ -1,6 +1,6 @@
-# 👁️‍🗨️ EYEC: Eyes That Speak — Multimodal AI Assistant for Blind People
+## 👁️‍🗨️ EYEC: Eyes That Speak — Multimodal AI Assistant for Blind People
 
-A **vision-language multimodal AI system** that helps blind and visually impaired users understand visual content shared on platforms like Instagram. The assistant generates ** humorous, and vivid captions**, and narrates them using **Text-to-Speech (TTS)**.
+### A **vision-language multimodal AI system** that helps blind and visually impaired users understand visual content shared on platforms like Instagram. The assistant generates ** humorous, and vivid captions**, and narrates them using **Text-to-Speech (TTS)**.
 ---
 
 ## 📖 Table of Contents
@@ -80,6 +80,8 @@ pip install -r requirements.txt
 ```
 
 ##📝 Credits
+
+
 @article{lu2024ovis,
   title={Ovis: Structural Embedding Alignment for Multimodal Large Language Model}, 
   author={Shiyin Lu and Yang Li and Qing-Guo Chen and Zhao Xu and Weihua Luo and Kaifu Zhang and Han-Jia Ye},
