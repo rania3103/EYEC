@@ -3,15 +3,6 @@
 ### A **vision-language multimodal AI system** that helps blind and visually impaired users understand visual content shared on platforms like Instagram. The assistant generates ** humorous, and vivid captions**, and narrates them using **Text-to-Speech (TTS)**.
 ---
 
-## 📖 Table of Contents
-
-- [Project Description](#project-description)
-- [Demo](#demo)
-- [Architecture](#architecture)
-- [Technologies Used](#technologies-used)
-- [Setup & Installation](#setup--installation)
-- [Credits](#credits)
-
 ## 📌 Project Description
 
 **EYEC** is an AI-driven assistant that makes visual content accessible for blind users.  
@@ -33,17 +24,18 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 **Generated Caption:**  
 *“The image features two beloved characters from the Toy Story franchise: Woody and Buzz Lightyear. Woody, dressed in his iconic yellow plaid shirt and cowhide vest, stands with a concerned expression, his hand on Buzz's shoulder. Buzz, in his white and green space suit, points excitedly towards something off-screen, his face beaming with enthusiasm. The background is a simple room with a blue wall and a door, creating a cozy atmosphere. The text overlay reads, "Look there my friend, now all Sohai ikut trend play the 10 years challenge at Facebook," humorously suggesting that the characters are reacting to a popular social media trend. The image captures a moment of contrast between Woody's apprehension and Buzz's excitement, adding a layer of humor to the scene.”*
 
-🎧 [▶️ Listen to the narration](demo_readme/caption_audio1.mp3)
+🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio1.mp3)
+
 
 ---
 
 ### 📸 Example 2
-<img src="demo_readme/paris.jpeg" width="450"/>
+<img src="demo_readme/paris.jpeg" width="450" height="350"/>
 
 **Generated Caption:**  
 *“The image captures a breathtaking view of Paris at sunset, with the iconic Eiffel Tower standing majestically in the background. The sky is painted in warm hues of orange and yellow, creating a serene atmosphere. In the foreground, a balcony adorned with lush white roses adds a touch of romance to the scene. The rooftops of Parisian buildings are visible, showcasing the city's characteristic architecture. This picturesque view perfectly encapsulates the charm and beauty of Paris, making it a quintessential representation of the city.”*
 
-🎧 [▶️ Listen to the narration](demo_readme/caption_audio2.mp3)
+🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio2.mp3)
 
 ---
 
@@ -53,7 +45,7 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 **Generated Caption:**  
 *“The image shows a colorful fruit platter on a white plate, arranged in a visually appealing manner. The platter includes green apple slices, strawberries, banana slices, red grapes, kiwi slices, blueberries, and cubed cantaloupe. The fruits are neatly separated, creating a vibrant display of colors and textures. The plate is set on a light gray marble countertop, providing a neutral background that highlights the fresh produce. This arrangement is perfect for a healthy snack or dessert, offering a variety of flavors and nutrients in one serving.”*
 
-🎧 [▶️ Listen to the narration](demo_readme/caption_audio3.mp3)
+🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio3.mp3)
 
 ---
 ### 📸 Example 4
@@ -62,8 +54,7 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 **Generated Caption:**  
 *“The image showcases a mouthwatering double cheeseburger with sesame seed buns, featuring two beef patties, melted cheese, lettuce, tomato, and pickles. The burger is presented on a wooden cutting board, with a rich, glossy sauce drizzled over the top. In the background, two more burgers are visible, creating a tempting display. The focus is on the appetizing details of the main burger, highlighting its layers and textures. The scene evokes a sense of indulgence and satisfaction, perfect for burger enthusiasts.”*
 
-🎧 [▶️ Listen to the narration](demo_readme/caption_audio4.mp3)
-
+🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio4.mp3)
 ---
 ### 📸 Example 5
 <img src="demo_readme/art.jpeg" width="450"/>
@@ -71,13 +62,13 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 **Generated Caption:**  
 *“The image shows a serene painting session in a bright room. A completed still life of pink and yellow flowers in a glass vase is displayed on a wooden easel. The artist's palette, with two brushes and some paint, sits on a white table. The background features a large window with a view of trees and a white cabinet with glass doors. The scene captures the essence of a peaceful artistic moment, with natural light enhancing the colors and details of the painting.”*
 
-🎧 [▶️ Listen to the narration](demo_readme/caption_audio5.mp3)
+🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio5.mp3)
 
 ---
 
 ## 🖼️ Architecture
 
-<img src="img_for_readme/eos_diagram.png">
+<img src="img_for_readme/eos_diagram.png" width="450">
 
 - **Ovis2-4B** is a **multimodal large language model (MLLM)** has size **4.62 B params** combines a **qwen2.5-3B as an LLM** and **AIMv2 Huge as vision encoder** and a special **visual embedding table**.
 
@@ -85,7 +76,9 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 
 - It has features like **Video and Multi-Image Processing** also **Multilingual Support and OCR**.
 
-<img src="img_for_readme/ovis.png>
+
+<img src="img_for_readme/ovis.png">
+
 
 - **Benchmark scores of Ovis2-4B** from **opencompass**: 
 ### 🔍 Ovis2-4B Performance Overview
@@ -111,7 +104,6 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 - Transformers (Hugging Face)
 - Ovis2-4B (multimodal vision-language model)
 - MobileNetV3 Large
-- Streamlit (web app)
 - edge_tts  (Text-to-Speech)
 - Kaggle Datasets
 - Pinterest Scraper (gallery-dl)
