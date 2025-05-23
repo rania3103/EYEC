@@ -118,15 +118,16 @@ source .venv/bin/activate   # On Windows use: .venv\Scripts\activate
 📦 Install dependencies
 ⚠️ Note: Some packages in requirements.txt are commented — install those manually via pip after this step
 pip install -r requirements.txt
-Open **notebooks/app.ipynb** 
+Open notebooks/app.ipynb
 ```
 #### 📢 During execution:
 - After uploading an image, a "⏳ Generating audio, please wait..." message appears while the caption and audio are being generated.
 - Then, the caption is displayed inside the notebook, followed by the generated audio.
 
-#### Tutorial
+#### 📹Tutorial
 
-[![Watch the video]](https://drive.google.com/file/d/1BSqp_SYZbGng_JZ4XpfP8bTTZtvDhfX7/view?usp=sharing)
+[![Watch the Tutorial Video](https://img.shields.io/badge/🎥%20Watch%20Video-blue?style=for-the-badge)](https://drive.google.com/file/d/1BSqp_SYZbGng_JZ4XpfP8bTTZtvDhfX7/view?usp=sharing)
+
 
 
 ##📝 Credits
