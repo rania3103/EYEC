@@ -25,8 +25,6 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 *“The image features two beloved characters from the Toy Story franchise: Woody and Buzz Lightyear. Woody, dressed in his iconic yellow plaid shirt and cowhide vest, stands with a concerned expression, his hand on Buzz's shoulder. Buzz, in his white and green space suit, points excitedly towards something off-screen, his face beaming with enthusiasm. The background is a simple room with a blue wall and a door, creating a cozy atmosphere. The text overlay reads, "Look there my friend, now all Sohai ikut trend play the 10 years challenge at Facebook," humorously suggesting that the characters are reacting to a popular social media trend. The image captures a moment of contrast between Woody's apprehension and Buzz's excitement, adding a layer of humor to the scene.”*
 
 🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio1.mp3)
-
-
 ---
 
 ### 📸 Example 2
@@ -36,7 +34,6 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 *“The image captures a breathtaking view of Paris at sunset, with the iconic Eiffel Tower standing majestically in the background. The sky is painted in warm hues of orange and yellow, creating a serene atmosphere. In the foreground, a balcony adorned with lush white roses adds a touch of romance to the scene. The rooftops of Parisian buildings are visible, showcasing the city's characteristic architecture. This picturesque view perfectly encapsulates the charm and beauty of Paris, making it a quintessential representation of the city.”*
 
 🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio2.mp3)
-
 ---
 
 ### 📸 Example 3
@@ -46,7 +43,6 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 *“The image shows a colorful fruit platter on a white plate, arranged in a visually appealing manner. The platter includes green apple slices, strawberries, banana slices, red grapes, kiwi slices, blueberries, and cubed cantaloupe. The fruits are neatly separated, creating a vibrant display of colors and textures. The plate is set on a light gray marble countertop, providing a neutral background that highlights the fresh produce. This arrangement is perfect for a healthy snack or dessert, offering a variety of flavors and nutrients in one serving.”*
 
 🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio3.mp3)
-
 ---
 ### 📸 Example 4
 <img src="demo_readme/hamburger.jpeg" width="450"/>
@@ -63,7 +59,6 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 *“The image shows a serene painting session in a bright room. A completed still life of pink and yellow flowers in a glass vase is displayed on a wooden easel. The artist's palette, with two brushes and some paint, sits on a white table. The background features a large window with a view of trees and a white cabinet with glass doors. The scene captures the essence of a peaceful artistic moment, with natural light enhancing the colors and details of the painting.”*
 
 🎧 [▶️ Listen to audio](https://huggingface.co/datasets/raniatatou/audios/resolve/main/caption_audio5.mp3)
-
 ---
 
 ## 🖼️ Architecture
