@@ -105,26 +105,33 @@ Here’s a live example of how **EYEC** describes images for blind users — pai
 - Matplotlib
 - Jupyter
 
-##⚙️ Setup & Installation
-# 📥 Clone the repository
+## ⚙️ Setup & Installation
+
+#### 📥 Clone the repository
+
+```bash
 git clone https://github.com/rania3103/EYEC.git
 cd EYEC
-
-# 🐍 Create and activate a virtual environment
+Create and activate a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate   # On Windows use: .venv\Scripts\activate
-
-# 📦 Install dependencies
-# ⚠️ Note: Some packages in requirements.txt are commented — install those manually via pip after this step
+📦 Install dependencies
+⚠️ Note: Some packages in requirements.txt are commented — install those manually via pip after this step
 pip install -r requirements.txt
-Open **notebooks/app.ipynb**
-📢 During execution:
-After uploading an image, a "⏳ Generating audio, please wait..." message appears while the caption and audio are being generated.
-Then, the caption is displayed inside the notebook, followed by the generated audio.
+Open **notebooks/app.ipynb** 
+```
+#### 📢 During execution:
+- After uploading an image, a "⏳ Generating audio, please wait..." message appears while the caption and audio are being generated.
+- Then, the caption is displayed inside the notebook, followed by the generated audio.
+
+#### Tutorial
+
+[![Watch the video]](https://drive.google.com/file/d/1BSqp_SYZbGng_JZ4XpfP8bTTZtvDhfX7/view?usp=sharing)
+
 
 ##📝 Credits
 
-
+```bibtex
 @article{lu2024ovis,
   title={Ovis: Structural Embedding Alignment for Multimodal Large Language Model}, 
   author={Shiyin Lu and Yang Li and Qing-Guo Chen and Zhao Xu and Weihua Luo and Kaifu Zhang and Han-Jia Ye},
@@ -138,3 +145,4 @@ Then, the caption is displayed inside the notebook, followed by the generated au
     howpublished = {\url{https://github.com/open-compass/opencompass}},
     year={2023}
 }
+```
