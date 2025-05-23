@@ -8,8 +8,7 @@ from transformers import AutoModelForCausalLM
 from torchvision import transforms, models
 from torch import nn
 import os
-import asyncio
-from edge_tts import Communicate
+
 
 
 class OvisCaptioner:
@@ -67,10 +66,6 @@ class OvisCaptioner:
             output = self.scene_model(x)
             pred = output.argmax(dim=1).item()
         return self.scene_classes[pred]
-    async def generate_tts(self, text, output_path="tts/caption_audio.mp3"):
-        """Generate speech from text using Edge TTS."""
-        communicate = Communicate(text, "en-US-JennyNeural")
-        await communicate.save(output_path)
     def describe_image(
             self,
             img_path,
@@ -81,7 +76,7 @@ class OvisCaptioner:
         # choose prompt based on type
         if img_type == "meme":
             # use the optimized prompt we got from experiment
-            text = "Meme or person or what exactly? Output only the description, no fluff."
+            text = "Quickly describe this image. If there's a recognizable person, mention their name naturally in the description. If it's a meme, summarize the joke humorously. If neither is present, just describe the scene vividly without stating what's missing."
         else:
             text = "Describe this image carefully for a blind person."
         images = [Image.open(img_path)]
@@ -112,8 +107,7 @@ class OvisCaptioner:
                 **self.gen_kwargs)[0]
         output = self.text_tokenizer.decode(
             output_ids, skip_special_tokens=True)
-        asyncio.run(self.generate_tts(output, output_path=audio_path))
 
-        return {"type": img_type, "caption": output, "audio_path": audio_path}
+        return {"type": img_type, "caption": output}
     
  
