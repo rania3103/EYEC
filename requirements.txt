@@ -9,3 +9,5 @@ icrawler
 gallery-dl
 # in command line apt-get install espeak
 scikit-learn
+ipywidgets
+nest_asyncio

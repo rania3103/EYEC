@@ -7,3 +7,4 @@ app/__pycache__/
 .venv
 =2.6.3
 screenshot.png
+app_outputs_demo/
